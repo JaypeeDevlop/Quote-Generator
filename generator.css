@@ -145,3 +145,23 @@ button {
 .section2 {
     display: none;
 }
+
+@media (max-width: 500px) {
+    .copyN {
+        display:flex;
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+   .iconsdiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap:100px;
+   }
+}
