@@ -25,6 +25,7 @@ section {
     max-width: 600px;
     margin: auto;
     width: 100%;
+    gap: 20px;
 
     /* height: 50vh; */
     display: flex;
@@ -44,6 +45,7 @@ section {
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
+    border-bottom: 2px solid gray;
 }
 
 .author {
@@ -146,7 +148,7 @@ button {
     display: none;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
     .copyN {
         display:flex;
         flex-direction: column-reverse;
@@ -157,11 +159,21 @@ button {
         width: 100%;
     }
 
+    .container {
+        height: 80vh;
+    }
+
    .iconsdiv {
     width: 100%;
     display: flex;
     align-items: center;
     text-align: center;
-    gap:100px;
+    gap: 100px;
    }
+
+   h1 {
+    font-size: 20px;
+    padding-bottom: 3px;
+    
+}
 }
