@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0066f2;
+}
+
+section {
+    border: none;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    border: none;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    width: 100%;
+
+    /* height: 50vh; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+    padding: 50px;
+    justify-content: space-between;
+
+    background-color: #fff;
+}
+
+.quote {
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+span {
+     font-family: monospace;
+     
+}
+
+.great {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.great span:first-child {
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    
+}
+
+p {
+    font-size: 20px;
+}
+
+.copyN {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+i {
+    border: 2px solid #0066f2;
+    border-radius: 50%;
+    padding: 25px 15px;
+    color: #0066f2;
+    cursor: pointer;
+}
+
+i:hover {
+    border: none;
+    background: #0066f2;
+    border-radius: 50%;
+    padding: 25px 15px;
+    color: #ffff;
+    cursor: pointer;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+    background: #0066f2;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* .author {
+    position: relative;
+    left: 30%;
+    word-break: break-all;
+} */
+
+/* .dash {
+    position: relative;
+    text-align: 
+} */
+
+.wquote {
+    padding-bottom: 50px;
+}
+
+.wquote:before {
+    content: open-quote;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.wquote:after {
+    content: close-quote;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section2 {
+    display: none;
+}
