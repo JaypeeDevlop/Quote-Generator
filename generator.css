@@ -146,7 +146,7 @@ button {
     display: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 320px) {
     .copyN {
         display:flex;
         flex-direction: column-reverse;
