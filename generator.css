@@ -151,17 +151,11 @@ button {
         display:flex;
         flex-direction: column-reverse;
         gap: 15px;
+
     }
 
     button {
         width: 100%;
-    }
-
-    .container {
-        /* padding: 30px 30px; */
-        /* margin: 30px 30px; */
-        /* gap: 5px; */
-    
     }
 
    .iconsdiv {
@@ -170,6 +164,7 @@ button {
     align-items: center;
     text-align: center;
     gap: 17px;
+    justify-content: space-between;
    }
 
    h1 {
