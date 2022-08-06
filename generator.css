@@ -12,11 +12,10 @@ body {
 
 section {
     border: none;
-    height: 98vh;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .container {
@@ -27,7 +26,6 @@ section {
     width: 100%;
     gap: 20px;
 
-    /* height: 50vh; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -148,7 +146,7 @@ button {
     display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
     .copyN {
         display:flex;
         flex-direction: column-reverse;
@@ -160,7 +158,10 @@ button {
     }
 
     .container {
-        height: 80vh;
+        /* padding: 30px 30px; */
+        /* margin: 30px 30px; */
+        /* gap: 5px; */
+    
     }
 
    .iconsdiv {
@@ -168,12 +169,42 @@ button {
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 100px;
+    gap: 17px;
    }
 
    h1 {
     font-size: 20px;
     padding-bottom: 3px;
-    
+}
+
+.wquote, .author {
+    font-size: 15px;
+}
+
+.quote {
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wquote:before {
+    content: open-quote;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wquote:after {
+    content: close-quote;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wquote {
+    padding-bottom: 30px;
 }
 }
